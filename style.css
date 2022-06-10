@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clerfixx::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.min-content{
+    max-width: 1124px;
+    margin: auto;
+}
+.header-section{
+    background-color: rgb(159, 97, 21);
+}
